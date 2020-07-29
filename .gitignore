@@ -58,6 +58,7 @@ gradle-app.setting
 vcs.xml
 modules.xml
 misc.xml
+.name
 
 # User-specific stuff
 .idea/**/workspace.xml
