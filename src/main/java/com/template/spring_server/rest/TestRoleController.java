@@ -8,20 +8,24 @@ import javax.annotation.security.RolesAllowed;
 @RestController
 @RequestMapping("/api/rolebased")
 public class TestRoleController {
+
     @GetMapping("/anon")
-    public @ResponseBody ResponseEntity<String> anon(){
+    public @ResponseBody
+    ResponseEntity<String> anon() {
         return ResponseEntity.ok("Anonymous request");
     }
 
     @RolesAllowed("user")
     @GetMapping("/user")
-    public @ResponseBody ResponseEntity<String> user(){
+    public @ResponseBody
+    ResponseEntity<String> user() {
         return ResponseEntity.ok("User request");
     }
 
     @RolesAllowed("admin")
     @GetMapping("/admin")
-    public @ResponseBody ResponseEntity<String> admin(){
+    public @ResponseBody
+    ResponseEntity<String> admin() {
         return ResponseEntity.ok("Admin request");
     }
 }
