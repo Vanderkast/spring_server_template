@@ -20,5 +20,9 @@ Keycloak integration based on these tutorials and documentations:
 1.6 Set client access type to confidential.
 1.5 Generate client secret.
 
+[Spring Security Expressions]
 
 [Tutorial on Medium]: https://medium.com/devops-dudes/securing-spring-boot-rest-apis-with-keycloak-1d760b2004e
+
+
+[Spring Security Expressions]: https://www.codeflow.site/ru/article/spring-security-expressions
