@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.security.RolesAllowed;
 
 @RestController
-@RequestMapping("/api/rolebased")
-public class TestRoleController {
+@RequestMapping("api/rolebased")
+public class RoleController {
 
     @GetMapping("/anon")
     public @ResponseBody
